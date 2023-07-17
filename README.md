@@ -13,7 +13,39 @@ Descubra quem é o seu grupo aqui!
 
 - [Sobre o site](#Sobre-o-Site)
 - [Funcionalidades](#Funcionalidades)
-- [Funcionalidades](#Funcionalidades)
+- [Área para Administradores](#Área-para-Administradores)
+- [Área de usuários](#Área-de-usuários)
+- [Tipos de acesso ao Site](#Tipos-de-acesso-ao-Site)
+- [Botões Navbar](#Botões-Navbar)
+- [Área admin](#Área-admin)
+- [Listando I like](#Listando-I-like)
+- [Adicionando I like](#Adicionando-I-like)
+- [Visualizando I like de um usuário do Grupo](#visualizando-I-like-de-um-usuário-do-grupo)
+- [Usuário Comum: Visualizando I like de um usuário do Grupo](#Usuário-comun:-Visializando-I-like-de-um-usuário-do-grupo)
+- [Visualizando seu próprio I like](#Visualizando-seu-próprio-I-like)
+- [Validações e proteção de informações incorretas](#Validações-e-proteção-de-informações-incorretas)
+- [Cadastro-de-usuários](#Cadastro-de-usuários)
+- [Fazendo login](#Fazendo-login)
+- [Fazendo login](#Fazendo-login)
+- [Metas](#Metas)
+- [Objetivos](#Objetivos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [Novas Versões](#Novas-Versões)
 - [Issues](#Issues)
 - [License](#License)
@@ -57,7 +89,7 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
   <img src="./src/components/img//README.img/admin-mygroup.png">
   <br>
 
-  📌 [Ações](https://github.com/ai/size-limit#readme) - Há um Navbar, na área central mostra qual o usuário logado. Há também botões que só parecem para usuários logados. 
+  📌 [botões Navbar](https://github.com/ai/size-limit#readme) - Há um Navbar, na área central mostra qual o usuário logado. Há também botões que só parecem para usuários logados. 
   <br>
 
   📌 [Área admin](https://github.com/ai/size-limit#readme) - Aqui pode se ver os detalhes do colaborador com nível de administrador. 
@@ -80,7 +112,6 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
   📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <span style="color:blue">**Abir Formulário**</span> que será aberto um formulário para a inclusão das informações.
   <img src="./src/components/img//README.img/add-likes.png">
  <br>
-
 
   📌 [Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Se você quiser saber de um livro bom para ler, ou uma indicação de um lugar para ir, ou uma Pós para fazer, poderá dar uma olhadinha nos <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd>  de seus colegas do grupo, e curtir essa experiência de achar uma boa indicação.
   <img src="./src/components/img//README.img/user-see-likes-user.png">
