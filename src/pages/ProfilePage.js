@@ -63,7 +63,7 @@ function ProfilePage() {
           </div>
           <button onClick={toggleForm} className={styles.button}>
             {" "}
-            {isFormOpen ? "Cancelar" : "Mudar foto Perfil"}
+            {isFormOpen ? "Cancelar" : "Mudar foto perfil"}
           </button>
 
           {isFormOpen && (

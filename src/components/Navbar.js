@@ -40,7 +40,7 @@ function Navbar() {
                 <button className={styles.button}> I Like</button>
               </NavLink>
               <NavLink to="/profile">
-                <button className={styles.button}>Profile</button>
+                <button className={styles.button}>Perfil</button>
               </NavLink>
 
               <NavLink to="/mygroup">

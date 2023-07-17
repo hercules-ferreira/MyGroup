@@ -54,7 +54,7 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
 </font></span></h1>
 
 📌 [Tipos de acesso ao Site](https://github.com/ai/size-limit#readme) - Área do grupo, com todos colaboradores cadastrados.
-  <img src="./src/components/img//README.img/mygroup-admin.png">
+  <img src="./src/components/img//README.img/admin-mygroup.png">
   <br>
 
   📌 [Ações](https://github.com/ai/size-limit#readme) - Há um Navbar, na área central mostra qual o usuário logado. Há também botões que só parecem para usuários logados. 
@@ -62,52 +62,52 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
 
   📌 [Área admin](https://github.com/ai/size-limit#readme) - Aqui pode se ver os detalhes do colaborador com nível de administrador. 
   O colaborador com nível de admin. Tem acesso á todas áreas, e funções, podendo executar qualquer função de alteração de informações do qualquer usuário.
-  <img src="./src/components/img//README.img/profile-admin.png">
+  <img src="./src/components/img//README.img/admin-edit-profile.png">
   <br>
   
   📌 [Área admin](https://github.com/ai/size-limit#readme) - Edição de suas próprias informações.
-  <img src="./src/components/img//README.img/edit-admin.png">
+  <img src="./src/components/img//README.img/admin-profile2.png">
   <br>
 
   📌 [Área admin](https://github.com/ai/size-limit#readme) - Edição de informações de outro usuário.
-  <img src="./src/components/img//README.img/edit-user.png">
+  <img src="./src/components/img//README.img/admin-edit-user.png">
  <br>
 
    📌 [Listando I like](https://github.com/ai/size-limit#readme) - Para visualizar um <kbd>***I like***</kbd>, seu ou de outro usuário do seu grupo basta clicar botão no Navbar <kbd>***I like***</kbd> e verá uma lista de todos <kbd>***I like***</kbd>.
-   <img src="./src/components/img//README.img/list-Ilike.png">
+   <img src="./src/components/img//README.img/see-list-likes.png">
  <br>
 
-  📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <span style="color:blue">Abir Formulário</span> que será aberto um formulário para a inclusão das informações.
-  <img src="./src/components/img//README.img/add-like.png">
+  📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <span style="color:blue">**Abir Formulário**</span> que será aberto um formulário para a inclusão das informações.
+  <img src="./src/components/img//README.img/add-likes.png">
  <br>
 
 
   📌 [Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Se você quiser saber de um livro bom para ler, ou uma indicação de um lugar para ir, ou uma Pós para fazer, poderá dar uma olhadinha nos <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd>  de seus colegas do grupo, e curtir essa experiência de achar uma boa indicação.
-  <img src="./src/components/img//README.img/user-details-Ilike-user.png">
-  <img src="./src/components/img//README.img/details-user.png">
-  📌 [Área admin](https://github.com/ai/size-limit#readme) - Na imagem acima um usuário administrador esta visualizando informações de outro usuário. Neste momento, o acesso é total, e todos botões são habilitados de edição ou exclusão das informações. 
+  <img src="./src/components/img//README.img/user-see-likes-user.png">
+  <img src="./src/components/img//README.img/user-admin-edit-user.png">
+  📌 [Área admin](https://github.com/ai/size-limit#readme) - Na imagem acima um usuário administrador está visualizando informações de outro usuário. Neste momento, o acesso é total, e todos botões são habilitados de edição ou exclusão das informações. 
   <br>  
 
-  📌 [Usuário Comum: Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Esta etapa, um usuário comum, está visualizando as informações, de um outro usuário. Como usuário comum não tem privilégios sob outro usuário, os botões de edição e exclusão são ocultados, e o único botão que aparece é o botão  <span style="color:blue">Voltar</span>.  
-  <img src="./src/components/img//README.img/user-details-user.png">
+  📌 [Usuário Comum: Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Esta etapa, um usuário comum, está visualizando as informações, de um outro usuário. Como usuário comum não tem privilégios sob outro usuário, os botões de edição e exclusão são ocultados, e o único botão que aparece é o botão  <span style="color:blue">**Voltar**</span>.
+
+  <img src="./src/components/img//README.img/user-see-likes-user.png">
  <br>
+  <br>
+
  
   📌 [Visualizando seu próprio I like](https://github.com/ai/size-limit#readme) - Você pode ver seus <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd>  e tem liberdade total para editar ou excluir a qualquer momento.  
-  <img src="./src/components/img//README.img/edit-user-user.png">
+  <img src="./src/components/img//README.img/user-edit-likes.png">
  <br>
 
   📌 [Fazendo login](https://github.com/ai/size-limit#readme) - Aqui é onde os usuários farão login e terão acesso a todas as suas informações.
-  <img src="./src/components/img//README.img/login.png">
- <br>
-
-  📌 [Validações e proteção de informações incorretas](https://github.com/ai/size-limit#readme) - Você precisa preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:   <span style="color:blue">campos obrigatórios</span>, <span style="color:blue">E-mail ou senha incorretos</span>.
-  <img src="./src/components/img//README.img/validation-login.png">
+  <img src="./src/components/img//README.img/validation-login1.png">
   <img src="./src/components/img//README.img/validation-login2.png">
+
+  📌 [Validações e proteção de informações incorretas](https://github.com/ai/size-limit#readme) - Você precisa preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:   <span style="color:blue">**campos obrigatórios**</span>, <span style="color:blue">**e-mail ou senha incorretos**</span>.
  <br>
 
-  📌 [Cadastro de usuários](https://github.com/ai/size-limit#readme) - Aqui é onde é feito o cadastro dos usuários, também é necessário preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:  <span style="color:blue">campos obrigatórios</span> 
-  <img src="./src/components/img//README.img/register-user.png">
-  <img src="./src/components/img//README.img/validation-register.png">
+  📌 [Cadastro de usuários](https://github.com/ai/size-limit#readme) - Aqui é onde é feito o cadastro dos usuários, também é necessário preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:  <span style="color:blue">**campos obrigatórios**</span> 
+  <img src="./src/components/img//README.img/validation-register1.png">
  <br>
 
 <h1><span style="color:blue">
@@ -116,7 +116,7 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
 
 > :construction: Novas Versões do Site :construction:
 
-📌 [Objetivos](https://github.com/ai/size-limit#readme) do Site será, colocar uma área com vários níveis de privilégios, de acordo com o cargo e função de cada colaborador.
+📌 [Objetivos](https://github.com/ai/size-limit#readme) do Site serão, colocar uma área com vários níveis de privilégios, de acordo com o cargo e função de cada colaborador.
 
 📌 [Objetivos](https://github.com/ai/size-limit#readme) Construir uma área para que cada colaborador possa também colocar imagens de suas conquistas na sua área de  <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd>, ou imagens de suas realizações, como livros, ou lugares que visitou.
 
