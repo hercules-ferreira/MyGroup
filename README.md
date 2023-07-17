@@ -29,27 +29,11 @@ Descubra quem é o seu grupo aqui!
 - [Fazendo login](#Fazendo-login)
 - [Metas](#Metas)
 - [Objetivos](#Objetivos)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - [Novas Versões](#Novas-Versões)
 - [Issues](#Issues)
 - [License](#License)
 - [Contribuição](#Contribuição)
+
 <h1><span style="color:blue">
 <font size=30>Sobre o Site</font></span></h1>
 <img src="icon.png" align="right" />
