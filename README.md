@@ -21,7 +21,6 @@ Descubra quem é o seu grupo aqui!
 - [Listando I like](#Listando-I-like)
 - [Adicionando I like](#Adicionando-I-like)
 - [Visualizando I like de um usuário do Grupo](#visualizando-I-like-de-um-usuário-do-grupo)
-- [Usuário Comum: Visualizando I like de um usuário do Grupo](#Usuário-comun:-Visializando-I-like-de-um-usuário-do-grupo)
 - [Visualizando seu próprio I like](#Visualizando-seu-próprio-I-like)
 - [Validações e proteção de informações incorretas](#Validações-e-proteção-de-informações-incorretas)
 - [Cadastro-de-usuários](#Cadastro-de-usuários)
