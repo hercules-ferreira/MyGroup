@@ -156,12 +156,12 @@ function GroupDetailsPage() {
                     className={styles.buttonAvatar}
                   />
                   <button type="submit" className={styles.button}>
-                    Save
+                    Salvar
                   </button>
 
                   <div>
                     <button type="submit" className={styles.button}>
-                      Submit
+                      Adicionar
                     </button>
                   </div>
                 </form>

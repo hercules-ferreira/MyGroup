@@ -29,9 +29,9 @@ Descubra quem é o seu grupo aqui!
 
 📜 Para a confecção do site, as principais ferramentas utilizadas, foram: React, JS ES6.
 <br>
-📜 Neste momento foi optado não utilizar bibliotecas prontas, como Material-UI, Bootstrap, formik, ou core UI.
+📜 Neste trabalho optei por não utilizar bibliotecas prontas, como Material-UI, Bootstrap, formik, ou core UI.
 <br>
-📜 Aqui o objetivo foi mostrar o máximo de conhecimento, desenvolvendo tidas aplicações Hardcore Functional Programming, 
+📜 Aqui o objetivo foi mostrar o máximo de conhecimento, desenvolvendo todas aplicações Hardcore Functional Programming, 
 <br>
 📜 A proposta principal dessa Intranet, é ter um canal direto com os colaboradores da empresa. 
 <br>
@@ -82,7 +82,7 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
    <img src="./src/components/img//README.img/list-Ilike.png">
  <br>
 
-  📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <mark>Open Form</mark> que será aberto um formulário para a inclusão das informações.
+  📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <mark>Abir Formulário</mark> que será aberto um formulário para a inclusão das informações.
   <img src="./src/components/img//README.img/add-like.png">
  <br>
 

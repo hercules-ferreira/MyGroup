@@ -1,11 +1,3 @@
-import { useState, useContext } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import { AuthContext } from "../context/auth.context";
-import api from "../api/api";
-import styles from "../components/styles/home.module.scss";
-import logoImg from "../components/img/logo-m.png";
-import HomedImage from "../components/styles/HomeImage";
-
 function LoginPage() {
   return (
     <>

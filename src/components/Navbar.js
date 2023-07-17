@@ -25,7 +25,7 @@ function Navbar() {
             <>
               <div className={styles.navUser}>
                 <span>
-                  UserName: <strong>{user && user.username}</strong>
+                  Usuário: <strong>{user && user.username}</strong>
                 </span>
               </div>
             </>

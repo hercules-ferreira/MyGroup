@@ -54,6 +54,7 @@
   flex-direction: column;
   background-color: var(--gray-900);
 }
+
 .containerEditLikeColor {
   background: #e5e5e5;
   padding: 2rem 5rem 1rem;
@@ -151,7 +152,7 @@
     font-size: 1.2rem;
   }
 }
-
+ 
 .text {
   margin-top: 1rem;
   color: var(--white);
@@ -349,7 +350,7 @@
 
 .headerLogin {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .img {

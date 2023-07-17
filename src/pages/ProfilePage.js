@@ -53,19 +53,17 @@ function ProfilePage() {
             <div>
               <h3>E-mail: {profile.email}</h3>
             </div>
-          <div className={styles.center}>
-
-
-            <RoundedImage src={profile.avatarUrl} width="px75" />
-          </div>
+            <div className={styles.center}>
+              <RoundedImage src={profile.avatarUrl} width="px75" />
+            </div>
           </div>
 
           <div>
-              <h4>Perfil: {profile.role}</h4>
-            </div>
+            <h4>Perfil: {profile.role}</h4>
+          </div>
           <button onClick={toggleForm} className={styles.button}>
             {" "}
-            {isFormOpen ? "Cancel" : "Change Avatar"}
+            {isFormOpen ? "Cancelar" : "Mudar foto Perfil"}
           </button>
 
           {isFormOpen && (
@@ -76,7 +74,7 @@ function ProfilePage() {
                 className={styles.buttonAvatar}
               />
               <button type="submit" className={styles.button}>
-                Save
+                Salvar
               </button>
             </form>
           )}

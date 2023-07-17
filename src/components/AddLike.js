@@ -35,7 +35,6 @@ function AddLike({ updateLikeList }) {
   };
 
 
-
   return (
     <div className="AddLike">
       <form onSubmit={handleSubmit}>
@@ -78,7 +77,7 @@ function AddLike({ updateLikeList }) {
               />
               <div>
                 <button type="submit" className={styles.button}>
-                  Submit
+                  Adicionar
                 </button>
               </div>
             </div>

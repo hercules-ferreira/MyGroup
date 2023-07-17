@@ -25,7 +25,7 @@ function LikeListPage() {
   return (
     <div className="likeListPage">
       <button onClick={toggleFormOpen} className={styles.buttonForm}>
-        {formIsOpen ? "Close Form" : "Open Form"}
+        {formIsOpen ? "Fechar Formulário" : "Abrir Formulário"}
       </button>
       {formIsOpen && <AddLike updateLikeList={fetchLikes} />}
 
