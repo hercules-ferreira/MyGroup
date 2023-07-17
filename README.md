@@ -13,11 +13,6 @@ Descubra quem é o seu grupo aqui!
 
 - [Sobre o site](#Sobre-o-Site)
 - [Funcionalidades](#Funcionalidades)
-
-
-- [Atualizações](#Atualizações)
-- [Instalação](#Instalação)
-- [Como Usar o Site](#Como-usar-o-Site)
 - [Funcionalidades](#Funcionalidades)
 - [Novas Versões](#Novas-Versões)
 - [Issues](#Issues)
@@ -78,22 +73,22 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
   <img src="./src/components/img//README.img/edit-user.png">
  <br>
 
-   📌 [Listando I like](https://github.com/ai/size-limit#readme) - Para visualizar um <kbd>***I like***</kbd>, seu ou de outro usuário do seu grupo, basta clicar botão no Navbar <kbd>***I like***</kbd> e verá uma lista de todos <kbd>***I like***</kbd>.
+   📌 [Listando I like](https://github.com/ai/size-limit#readme) - Para visualizar um <kbd>***I like***</kbd>, seu ou de outro usuário do seu grupo basta clicar botão no Navbar <kbd>***I like***</kbd> e verá uma lista de todos <kbd>***I like***</kbd>.
    <img src="./src/components/img//README.img/list-Ilike.png">
  <br>
 
-  📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <mark>Abir Formulário</mark> que será aberto um formulário para a inclusão das informações.
+  📌 [Adicionando I like](https://github.com/ai/size-limit#readme) - Para Adicionar uma aptidão, um <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd> basta clicar no botão <span style="color:blue">Abir Formulário</span> que será aberto um formulário para a inclusão das informações.
   <img src="./src/components/img//README.img/add-like.png">
  <br>
 
 
-  📌 [Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Se você quiser saber de um livro bom apara ler, ou uma indicação de um lugar para ir, ou uma Pós para fazer, poderá dar uma olhadinha nos <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd>  de seus colegas do grupo, e curtir essa experiência de achar uma boa indicação.
+  📌 [Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Se você quiser saber de um livro bom para ler, ou uma indicação de um lugar para ir, ou uma Pós para fazer, poderá dar uma olhadinha nos <kbd>***I like***</kbd> / <kbd>***Eu Gosto***</kbd>  de seus colegas do grupo, e curtir essa experiência de achar uma boa indicação.
   <img src="./src/components/img//README.img/user-details-Ilike-user.png">
   <img src="./src/components/img//README.img/details-user.png">
   📌 [Área admin](https://github.com/ai/size-limit#readme) - Na imagem acima um usuário administrador esta visualizando informações de outro usuário. Neste momento, o acesso é total, e todos botões são habilitados de edição ou exclusão das informações. 
   <br>  
 
-  📌 [Usuário Comum: Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Esta etapa, um usuário comum, está visualizando as informações, de um outro usuário. Como usuário comum não tem privilégios sob outro usuário, os botões de edição e exclusão são ocultados, e o único botão que aparece é o botão  <mark>Volar</mark>.
+  📌 [Usuário Comum: Visualizando I like de um usuário do Grupo](https://github.com/ai/size-limit#readme) - Esta etapa, um usuário comum, está visualizando as informações, de um outro usuário. Como usuário comum não tem privilégios sob outro usuário, os botões de edição e exclusão são ocultados, e o único botão que aparece é o botão  <span style="color:blue">Voltar</span>.  
   <img src="./src/components/img//README.img/user-details-user.png">
  <br>
  
@@ -105,12 +100,12 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
   <img src="./src/components/img//README.img/login.png">
  <br>
 
-  📌 [Validações e proteção de informações incorretas](https://github.com/ai/size-limit#readme) - Você precisa preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:   <mark>campos obrigatórios</mark>, <mark>E-mail ou senha incorretos</mark>.
+  📌 [Validações e proteção de informações incorretas](https://github.com/ai/size-limit#readme) - Você precisa preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:   <span style="color:blue">campos obrigatórios</span>, <span style="color:blue">E-mail ou senha incorretos</span>.
   <img src="./src/components/img//README.img/validation-login.png">
   <img src="./src/components/img//README.img/validation-login2.png">
  <br>
 
-  📌 [Cadastro de usuários](https://github.com/ai/size-limit#readme) - Aqui é onde é feito o cadastro dos usuários, também é necessário preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:   <mark>campos obrigatórios</mark>
+  📌 [Cadastro de usuários](https://github.com/ai/size-limit#readme) - Aqui é onde é feito o cadastro dos usuários, também é necessário preencher todas as informações corretas para ter acesso a Intranet, ou o sistema retornará uma mensagem:  <span style="color:blue">campos obrigatórios</span> 
   <img src="./src/components/img//README.img/register-user.png">
   <img src="./src/components/img//README.img/validation-register.png">
  <br>
