@@ -63,7 +63,7 @@ Nesta área é possível impulsionar suas principais qualificações, aptidões,
 
 
 📌 [Home](https://github.com/ai/size-limit#readme) - Na Página inicial tem as informações atualizadas, e informações de como o site é, e uma prévia das opções que cada colaborador irá encontrar. No menu acima, no Navbar o usuário encontra os links para ir para área de Login ou Signup.
-Também existe umc carrossel infinito que fica passando as imagens dos colaboradores.  
+Também existe um carrossel infinito que fica passando as imagens dos colaboradores.  
 
   <img src="/public/README/home1.png">
   <br>
