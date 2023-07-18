@@ -47,7 +47,7 @@ a {
 }
 
 body {
-  background-image: url(./components/img/1.png);
+  background-image: url(./components/img/background.png);
 }
 
 /* 1rem = 16px */
@@ -96,6 +96,21 @@ textarea {
   border-radius: 8px;
 }
 
+
+.cardHomePage{
+  display: grid;
+
+    max-width: 400px;
+    padding: 10px;
+    box-shadow: 0px 2px 3px grey;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: #e5e5e5;
+    border-radius: 8px;
+
+}
+
+
 .UserCard h3::after {
   margin-left: 5px;
 }
@@ -138,13 +153,27 @@ textarea {
 }
 
 
-
-.nossaGaleria{
+.homeCard{  
+  margin-left: 30px;
   display: flex;
-  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  max-height: 300px;
+  font-size: 2.0rem;
+  font-weight: 900;
+  color: #ffc800;
+  background: linear-gradient(180deg, #d10309 0%, #880004e6 100%);
+  border-radius: 20px;
+  
 
 }
-
+.homeCardImg img{
+  width: 900px;
+  transition: transform 0.5s !important;
+  &:hover {
+    transform: scale(1.50);
+  }
+}
 
 @keyframes slide {
   from {
@@ -195,6 +224,10 @@ textarea {
 .logos-slide img {
   height: 200px;
   margin: 0 10px;
+
+
+  
+      
 }
 
 

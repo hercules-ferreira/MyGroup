@@ -74,17 +74,14 @@ class Api {
     }
   };
 
-  updateAvatar = async (formData) => {
+  updateAvatar = async (userId, formData) => {
     try {
-      const { data } = await this.api.put("/user/image", formData);
+      const { data } = await this.api.put(`/user/image/${userId}`, formData);
       return data;
     } catch (error) {
       throw error;
     }
   };
-
-  //
-  //
 
   addUser = async (user) => {
     try {

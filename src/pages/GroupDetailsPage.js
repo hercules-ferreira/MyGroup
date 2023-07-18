@@ -50,21 +50,21 @@ function GroupDetailsPage() {
     setIsFormOpen(!isFormOpen);
   };
 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await api.editUser(userId, { name, telephone, avatarUrl, email });
+    await api.editUser(userId, { name, telephone, file, email });
+    console.log(name);
     setIsFormOpen(false);
-    fetchUser();
 
     const formData = new FormData();
     formData.append("profileImage", file);
     try {
-      await api.updateAvatar(formData);
-      const user = await api.getProfile();
-      setProfile(user);
+      await api.updateAvatar(userId, formData);
     } catch (error) {
       console.log("ERRO!", error);
     }
+    // fetchUser();
     navigate("/mygroup");
   };
 
@@ -155,9 +155,9 @@ function GroupDetailsPage() {
                     onChange={handleFile}
                     className={styles.buttonAvatar}
                   />
-                  <button type="submit" className={styles.button}>
+                  {/* <button type="submit" className={styles.button}>
                     Salvar
-                  </button>
+                  </button> */}
 
                   <div>
                     <button type="submit" className={styles.button}>

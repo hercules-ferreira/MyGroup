@@ -5,37 +5,14 @@ import RoundedImage from "../components/HomeImage";
 
 function ProfilePage() {
   const [profile, setProfile] = useState(null);
-  const [isFormOpen, setIsFormOpen] = useState(false);
-  const [file, setFile] = useState(null);
 
-  useEffect(() => {
+  useEffect((userId) => {
     const fetchProfile = async () => {
-      const user = await api.getProfile();
+      const user = await api.getProfile(userId);
       setProfile(user);
     };
     fetchProfile();
   }, []);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formData = new FormData();
-    formData.append("profileImage", file);
-    try {
-      await api.updateAvatar(formData);
-      const user = await api.getProfile();
-      setProfile(user);
-    } catch (error) {
-      console.log("ERRO!", error);
-    }
-  };
-
-  const toggleForm = () => {
-    setIsFormOpen(!isFormOpen);
-  };
-
-  const handleFile = (e) => {
-    setFile(e.target.files[0]);
-  };
 
   return (
     <div className="card">
@@ -61,23 +38,6 @@ function ProfilePage() {
           <div>
             <h4>Perfil: {profile.role}</h4>
           </div>
-          <button onClick={toggleForm} className={styles.button}>
-            {" "}
-            {isFormOpen ? "Cancelar" : "Mudar foto perfil"}
-          </button>
-
-          {isFormOpen && (
-            <form onSubmit={handleSubmit}>
-              <input
-                type="file"
-                onChange={handleFile}
-                className={styles.buttonAvatar}
-              />
-              <button type="submit" className={styles.button}>
-                Salvar
-              </button>
-            </form>
-          )}
         </>
       )}
     </div>

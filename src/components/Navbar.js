@@ -30,7 +30,12 @@ function Navbar() {
               </div>
             </>
           ) : (
-            <></>
+            <>
+              {" "}
+              <div className={styles.ourGallery}>
+                <h1>Nossa Galeria</h1>
+              </div>
+            </>
           )}
         </div>
         <nav className={styles.nav}>
@@ -52,7 +57,17 @@ function Navbar() {
               </button>
             </>
           ) : (
-            <></>
+            <>
+              <NavLink to="/homepage">
+                <button className={styles.button}>HomePage</button>
+              </NavLink>
+              <NavLink to="/login">
+                <button className={styles.button}>Login</button>
+              </NavLink>
+              <NavLink to="/signup">
+                <button className={styles.button}>Signup</button>
+              </NavLink>
+            </>
           )}
         </nav>
       </div>
