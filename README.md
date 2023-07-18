@@ -26,7 +26,6 @@ Descubra quem é o seu grupo aqui!
 - [Validações e proteção de informações incorretas](#Validações-e-proteção-de-informações-incorretas)
 - [Cadastro-de-usuários](#Cadastro-de-usuários)
 - [Fazendo login](#Fazendo-login)
-- [Fazendo login](#Fazendo-login)
 - [Metas](#Metas)
 - [Objetivos](#Objetivos)
 - [Novas Versões](#Novas-Versões)
